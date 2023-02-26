@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/css/uikit.min.css" />
+    
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- SHOWCASE -->
+    <header class="header">
+        <div class="contain">
+            <nav class="navbar">
+                <img src="./assets/media/Tkani.png" alt="not" class="navbar__logo">
+                <a href="#" class="navbar__adress"><i class="fa-solid fa-location-dot"></i>Санкт-Петербург</a>
+                <form action="#">
+                    <input type="search" class="navbar__search" placeholder="Я ищу">
+                </form>
+                <div class="navbar__tel">
+                    <a href="tel:8 800 900 70 90">8 800 900 70 90</a><br>
+                    <span>Пн-вс: 10:00 - 21:00</span>
+                </div>
+                <div class="navbar__icons">
+                    <span><i class="fa-solid fa-heart"></i></span>
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <span class="last"><i class="fa-solid fa-basket-shopping"></i>12</span>
+                </div>
+                <label for="checkbox" class="navbar__label"><i class="fa-solid fa-bars fa-2x"></i></label>
+                <input type="checkbox" id="checkbox" class="navbar__input">
+                <ul class="navbar__links">
+                  <li class="links__li links__active"><a href="#">Для одежды</a></li>
+                  <li class="links__li"><a href="#">Для интерьера</a></li>
+                  <li class="links__li"><a href="#">Мебельные</a></li>
+                  <li class="links__li"><a href="#">Фурнитура</a></li>
+                  <li class="links__li"><a href="#">Пряжа</a></li>
+                  <li class="links__li"><a href="#">Новогодние</a></li>
+                  <li class="links__li"><a href="#">Для шитья</a></li>
+                  <li class="last"><i class="fa-solid fa-location-dot"></i>Санкт-Петербург
+                  </li>
+                  <li class="last"><a href="tel:8 800 900 70 90">8 800 900 70 90</a></li>
+              </ul>
+
+            </nav>
+        </div>
+        <div class="contain">
+            <nav class="main">
+                <ul class="links">
+                    <li class="links__li links__active"><a href="#">Для одежды</a></li>
+                    <li class="links__li"><a href="#">Для интерьера</a></li>
+                    <li class="links__li"><a href="#">Мебельные</a></li>
+                    <li class="links__li"><a href="#">Фурнитура</a></li>
+                    <li class="links__li"><a href="#">Пряжа</a></li>
+                    <li class="links__li"><a href="#">Новогодние</a></li>
+                    <li class="links__li"><a href="#">Для шитья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/media/background.jpg" class="d-block w-100" alt="not">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Скидки 20% <br>
+                    на новые ткани</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/background1.jpg" class="d-block w-100" alt="not">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Скидки 40% <br>
+                    на новые ткани</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/background2.jpg" class="d-block w-100" alt="not">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Скидки 20% <br>
+                    на новые ткани</h1>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="contain">
+            <div class="card card1">
+                <div class="card__text">
+                    <h1>20%</h1>
+                    <p>на новые ткани</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="card__text">
+                    <h1>30%</h1>
+                    <p>на новые ткани</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="card__text">
+                    <h1>40%</h1>
+                    <p>на новые ткани</p>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- SECOND SECTION -->
+    <section class="second">
+      <div class="contain__title">
+        <h1>Популярные категории</h1>
+      </div>
+      <div class="contain">
+        <div class="card sixty">
+          <img src="./assets/media/item1.png" alt="not">
+        </div>
+        <div class="card forty">
+          <img src="./assets/media/item2.png" alt="not">
+        </div>
+        <div class="card forty">
+          <img src="./assets/media/item3.png" alt="not">
+        </div>
+        <div class="card sixty">
+          <img src="./assets/media/item4.png" alt="not">
+        </div>
+        <div class="card forty">
+          <img src="./assets/media/item5.png" alt="not">
+        </div>
+        <div class="card forty">
+          <img src="./assets/media/item6.png" alt="not">
+        </div>
+        <div class="card forty">
+          <img src="./assets/media/item3.png" alt="not">
+        </div>   
+      </div>
+    </section>
+
+    <!-- THREE -->
+
+    <section class="three">
+      <div class="contain__title">
+        <h1>Вы просматривали</h1>
+      </div>
+      <div class="contain">
+        <div class="uk-position-relative uk-visible-toggle uk-light sliderr" tabindex="-1" uk-slider>
+
+          <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m sliderr-item">
+              <li>
+                  <img src="./assets/media/img11.png" width="400" height="600" alt="not">
+                  <div class="text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <ul>
+                      <li><b>Ширина</b>1.5 м</li>
+                      <li><b>Состав</b>100%</li>
+                      <li><b>Плотность</b>170 гр/м2</li>
+                      <hr color="pink">
+                      <div>
+                        <h2>240 ₽<span>360₽</span></h2>
+                        <a href="#">В корзину</a>
+                      </div>
+
+                    </ul>
+                  </div>
+              </li>
+              <li>
+                  <img src="./assets/media/img22.png" width="400" height="600" alt="not">
+                  <div class="text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <ul>
+                      <li><b>Ширина</b>1.5 м</li>
+                      <li><b>Состав</b>100%</li>
+                      <li><b>Плотность</b>170 гр/м2</li>
+                      <hr color="pink">
+                      <div>
+                        <h2>240 ₽<span>360₽</span></h2>
+                        <a href="#">В корзину</a>
+                      </div>
+
+                    </ul>
+                  </div>
+              </li>
+              <li>
+                  <img src="./assets/media/img33.png" width="400" height="600" alt="not">
+                  <div class="text">
+                    <p>Рогожка</p>
+                    <h3>Альпийская деревенька</h3>
+                    <ul>
+                      <li><b>Ширина</b>1.5 м</li>
+                      <li><b>Состав</b>100%</li>
+                      <li><b>Плотность</b>170 гр/м2</li>
+                      <hr color="pink">
+                      <div>
+                        <h2>240 ₽<span>360₽</span></h2>
+                        <a href="#">В корзину</a>
+                      </div>
+
+                    </ul>
+                  </div>
+              </li>
+              <li>
+                <img src="./assets/media/img11.png" width="400" height="600" alt="not">
+                <div class="text">
+                  <p>Рогожка</p>
+                  <h3>Альпийская деревенька</h3>
+                  <ul>
+                    <li><b>Ширина</b>1.5 м</li>
+                    <li><b>Состав</b>100%</li>
+                    <li><b>Плотность</b>170 гр/м2</li>
+                    <hr color="pink">
+                    <div>
+                      <h2>240 ₽<span>360₽</span></h2>
+                      <a href="#">В корзину</a>
+                    </div>
+
+                  </ul>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/media/img22.png" width="400" height="600" alt="not">
+                <div class="text">
+                  <p>Рогожка</p>
+                  <h3>Альпийская деревенька</h3>
+                  <ul>
+                    <li><b>Ширина</b>1.5 м</li>
+                    <li><b>Состав</b>100%</li>
+                    <li><b>Плотность</b>170 гр/м2</li>
+                    <hr color="pink">
+                    <div>
+                      <h2>240 ₽<span>360₽</span></h2>
+                      <a href="#">В корзину</a>
+                    </div>
+
+                  </ul>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/media/img33.png" width="400" height="600" alt="not">
+                <div class="text">
+                  <p>Рогожка</p>
+                  <h3>Альпийская деревенька</h3>
+                  <ul>
+                    <li><b>Ширина</b>1.5 м</li>
+                    <li><b>Состав</b>100%</li>
+                    <li><b>Плотность</b>170 гр/м2</li>
+                    <hr color="pink">
+                    <div>
+                      <h2>240 ₽<span>360₽</span></h2>
+                      <a href="#">В корзину</a>
+                    </div>
+
+                  </ul>
+                </div>
+            </li>
+            <li>
+              <img src="./assets/media/img11.png" width="400" height="600" alt="not">
+              <div class="text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <ul>
+                  <li><b>Ширина</b>1.5 м</li>
+                  <li><b>Состав</b>100%</li>
+                  <li><b>Плотность</b>170 гр/м2</li>
+                  <hr color="pink">
+                  <div>
+                    <h2>240 ₽<span>360₽</span></h2>
+                    <a href="#">В корзину</a>
+                  </div>
+
+                </ul>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/media/img22.png" width="400" height="600" alt="not">
+              <div class="text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <ul>
+                  <li><b>Ширина</b>1.5 м</li>
+                  <li><b>Состав</b>100%</li>
+                  <li><b>Плотность</b>170 гр/м2</li>
+                  <hr color="pink">
+                  <div>
+                    <h2>240 ₽<span>360₽</span></h2>
+                    <a href="#">В корзину</a>
+                  </div>
+
+                </ul>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/media/img33.png" width="400" height="600" alt="not">
+              <div class="text">
+                <p>Рогожка</p>
+                <h3>Альпийская деревенька</h3>
+                <ul>
+                  <li><b>Ширина</b>1.5 м</li>
+                  <li><b>Состав</b>100%</li>
+                  <li><b>Плотность</b>170 гр/м2</li>
+                  <hr color="pink">
+                  <div>
+                    <h2>240 ₽<span>360₽</span></h2>
+                    <a href="#">В корзину</a>
+                  </div>
+
+                </ul>
+              </div>
+            </li>
+          </ul>
+      
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+      
+      </div>
+      </div>
+    </section>
+
+    <!-- FOUR -->
+    <section class="four">
+      <div class="contain">
+        <div class="forty">
+          <h2 class="forty__h2">
+            Подпишитесь на рассылку
+          </h2>
+          <p>Будьте в курсе наших акций</p>
+        </div>
+        <div class="sixty">
+          <form action="#">
+            <div class="sixty__form">
+              <input type="email" placeholder="Ваша почта">
+            <button>Подписаться -→</button>
+            </div>
+            <p>Нажимая кнопку, вы даете согласие на обработку ваших персональных данных в соответствии с Политикой Конфиденциальности</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="contain">
+        <div class="fifty">
+          <ul>
+            <li><b>Наши контакты</b></li>
+            <li><a href="tel:8 800 900 70 90">8 800 900 70 90</a></li>
+            <li>г. Орск Проспект Ленина 71 / А</li>
+            <li>Пн-вс: 10:00 - 21:00 <br> без выходных</li>
+            <li class="last"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-vk"></i></li>
+            <li><a href="#">
+              Политика конфиденциальности
+              </a></li>
+          </ul>
+          <ul>
+            <li><b>Способы оплаты</b></li>
+            <li><a href="#"><img src="./assets/media/Visa.png" alt="not"></a></li>
+            <li><a href="#"><img src="./assets/media/PayPal.png" alt="not"></a></li>
+            <li><a href="#"><img src="./assets/media/MasterCard.png" alt="not"></a></li>
+            <li class="last"><a href="#"></a></li><br><br>
+            <li><a href="#">Все права защищены (С)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fifty">
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     <!-- UIkit JS -->
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

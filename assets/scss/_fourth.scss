@@ -1,0 +1,77 @@
+.four{
+    background-image: linear-gradient(to right, #FBF7F4, #FBF7F4);
+    background-size: 98% 50%;
+    background-position: bottom left;
+    background-repeat: no-repeat;;
+    .contain{
+        margin-top: 40px;
+        background-color: #bf1e77d4;
+        background-image: url(../media/bg1.jpg);
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .forty{
+            width: 40%;
+            h2{
+                color: white;
+            }
+        }
+        .sixty{
+            width: 60%;
+            &__form{
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-between;
+                input{
+                    width: 58%;
+                }
+                button{
+                    width: 38%;
+                    color: white;
+                    border: none;
+                    background-color: #545155;
+                }
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width:712px){
+    .four{
+        .contain{
+            .forty{
+                width: 100%;
+                h2{
+                    font-size: 22px;
+                    color: white;
+                }
+            }
+            .sixty{
+                width: 100%;
+                &__form{
+                    display: flex;
+                    margin-top: 10px;
+                    justify-content: space-between;
+                    input{
+                        width: 58%;
+                    }
+                    button{
+                        width: 38%;
+                        color: white;
+                        border: none;
+                        background-color: #545155;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

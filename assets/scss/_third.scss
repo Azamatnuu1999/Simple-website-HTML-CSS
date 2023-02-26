@@ -1,0 +1,109 @@
+.three{
+    .contain__title{
+        text-align: center;
+        h1{
+            color: grey;
+        }
+    }
+    .contain{
+        .sliderr{
+            &-item{
+                li{
+                    width: 33.3%;
+                    padding: 1%;
+                    cursor: pointer;
+                    margin: auto;
+                    .text{
+                        *{
+                            margin: 0;
+                            padding: 0;
+                        }
+                        p{
+                            font-size: 12px;
+                            color: rgb(255, 144, 163);
+                        }
+                        h3{
+                            color: rgb(255, 144, 163);
+                        }
+                        ul{
+                            li{
+                                margin: 4px 0;
+                                font-size: 14px;
+                                width: 100%;
+                                color: black;
+                                b{
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        hr{
+                            color: rgb(255, 144, 163);
+                        }
+                        div{
+                            margin: 7px 0;
+                            display: flex;
+                            justify-content: space-between;
+                            h2{
+                                font-size: 18px;
+                                color: black;
+                                span{
+                                    margin-left: 5px;
+                                    color: grey;
+                                    font-size: 14px;
+                                }
+                            }
+                            a{
+                                font-size: 13px;
+                                color: rgb(255, 144, 163);
+                            }
+                        }
+                    }
+                }
+                li:hover{
+                    transform: scale(1.02);
+                    transition-duration: 0.3s;
+                    transition-timing-function: linear;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:800px){
+    .three{
+        .contain__title{
+            h1{
+                font-size: 20px;
+            }
+        }
+        .contain{
+            .sliderr{
+                &-item{
+                    li{
+                        width: 50%;     
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:472px){
+    .three{
+        .contain__title{
+            text-align: center;
+            h1{
+                color: grey;
+            }
+        }
+        .contain{
+            .sliderr{
+                &-item{
+                    li{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
